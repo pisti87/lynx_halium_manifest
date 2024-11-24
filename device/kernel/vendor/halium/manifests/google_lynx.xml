@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+<remote name="github" fetch="https://github.com/" />
+<default revision="halium-11.0" remote="github" sync-j="4" />
+
+<project name="Halium/android" path="halium/android" />
+<project name="LineageOS/android_device_google_lynx" path="device/google/lynx" remote="github" revision="lineage-21" />
+<project name="LineageOS/android_kernel_google_lynx" path="kernel/google/lynx" remote="github" revision="lineage-21" />
+<project name="LineageOS/android_vendor_google_lynx" path="vendor/google/lynx" remote="github" revision="lineage-21" />
+
+</manifest>
